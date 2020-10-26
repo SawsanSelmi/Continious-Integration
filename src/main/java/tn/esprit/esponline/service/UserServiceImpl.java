@@ -12,6 +12,7 @@ public class UserServiceImpl implements IUserService {
 
 	public void setUserDAO(IUserDAO userDAO) {
 		this.userDAO = userDAO;
+		//Modify
 	}
  
 }
