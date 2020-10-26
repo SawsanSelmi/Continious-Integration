@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('BUILD') {
       steps {
         bat 'mvn compile'
         bat 'mvn test'
